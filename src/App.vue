@@ -1,7 +1,7 @@
 <script setup>
   import {ref} from 'vue';
   import Header from "./components/header.vue";
-  import ButtonCounter from "./components/ButtonCounter.vue";
+  import PersonDetails from "./components/PersonDetails.vue";
 </script>
 <template>
   <div class="container">
@@ -9,11 +9,8 @@
       <Header/>
     </div> 
     <br>  
-    <ButtonCounter :count="10"/><br>
-    <ButtonCounter/>
-    
+   <div class="row">
+   </div>
   </div>
 </template>
-<style scoped>
 
-</style>
